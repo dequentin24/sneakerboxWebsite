@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
 *{
   padding:0px;
   margin: 0px;
   font-family: Arial;
   box-sizing: border-box;
-  
+  font-family: 'Montaga', serif;
 overflow-x:hidden;
 }
 
 .container1{
   width:80%;
-  background-color:lightgrey;
+  height: 40%;
+  background-image: linear-gradient(to bottom right, #aff5f7, #81d8d0,	#bae3df);
+  
+ 
+
   margin-left:10%;
   margin-top:15%;
   border-color: red;
@@ -19,7 +25,18 @@ overflow-x:hidden;
 }
 
 .product_image{
-  width:90%;
+  width:70%;
+  margin-left: 15%;
+}
+
+.adidas_product{
+  width:100%;
+  border-radius: 10%;
+  
+}
+.nike_product{
+  width:100%;
+  border-radius: 10%;
 }
 
 .product_title{
@@ -47,24 +64,29 @@ margin-left: 20%;
 
 .summer_sale_title{
   margin-top:10%;
-  padding:10%
+  padding:10%;
+  text-align:center;
+  margin-left: 4%;
+
 }
 
 .summer_sale_words{
-  margin-top:3%;
-  padding:10%;
-
+ width:60%;
+ text-align:center;
+ margin-left: 20%;
+font-size: 30px;
 }
 
 .shop{
   margin-top:10%;
   padding:10%;
   text-align: center;
+  font-size: 50px;
 }
 
 .container2{
   width:80%;
-  background-color:lightgrey;
+  
   margin-left:10%;
   margin-top:15%;
   border-color: red;
@@ -83,7 +105,7 @@ margin-left: 20%;
 
 .container3{
   width:80%;
-  background-color:lightgrey;
+  
   margin-left:10%;
   margin-top:15%;
   border-color: red;
@@ -99,7 +121,7 @@ margin-left: 20%;
 
 .container4{
   width:80%;
-  background-color:lightgrey;
+ 
   margin-left:10%;
   margin-top:15%;
   border-color: red;
@@ -131,14 +153,34 @@ margin-left: 20%;
   text-align: center;
 }
 
-.videoWrapper {
-margin-left: 22%;
+.abloh_drawing{
+  padding: 10px ;
+}
 
+.videoWrapper {
+margin-top:10% ;
+margin-left:10%;
   
 }
 
-.abloh_video{
-  width:80%;
+.gifs{
+  width:95%;
   height:auto;
 }
 
+.gif_words{
+  padding: 20px;
+  text-align: center;
+  margin-left: 10%;
+  width:85%;
+  font-size:25px ;
+}
+
+
+.gif_words_models{
+  padding: 20px;
+  text-align: center;
+  margin-left: 10%;
+  width:85%;
+  font-size:25px ;
+}
