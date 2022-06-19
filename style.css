@@ -1,11 +1,11 @@
-@font-face{}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,900&display=swap');
 
 *{
   padding:0px;
   margin: 0px;
   font-family: Arial;
   box-sizing: border-box;
-  font-family: 'Montaga', serif;
+  font-family: 'Fira Sans Extra Condensed';
 overflow-x:hidden;
 }
 
@@ -168,6 +168,8 @@ font-size: 30px;
 }
 .shop_Button:hover{
   background-color: rgb(255, 0, 0);
+  ;
+  cursor: pointer;
 }
 .coming_soon{
   font-size:300%;
