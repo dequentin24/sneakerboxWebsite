@@ -16,7 +16,6 @@ overflow-x:hidden;
 
 
 
-
 .product_image{
   width:70%;
   margin-left: 15%;
@@ -155,6 +154,7 @@ font-size: 30px;
   font-size:25px ;
   margin-left: 5%;
   margin-top: 5%;
+  width: 80%;
 }
 .shop_Button{
   margin-left: 5%;
