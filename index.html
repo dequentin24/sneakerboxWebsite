@@ -11,7 +11,7 @@
  </head>
  <body>
    
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-sm navMiddle ">
     <div class="container-fluid">
       <a class="navbar-brand" href="javascript:void(0)">SneakerBox</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -40,11 +40,11 @@
 
 
 
-   <div class="container1">
+   <div class="container0">
    <div class="product">
 
-     <img src="img/ocean_shoeAdSmall.png" class="collection_image"alt="">
-     
+     <img src="img/ocean_shoeAdSmall.png" class="collection_imageSmall imageSize1"alt="" >
+     <img src="img/ocean_shoeAdLarge.png " class="collection_imageSmall imageSize2">
 
    
 
@@ -72,15 +72,17 @@
     <!--Adding bootstrap summer shopping carousel here tomorrow-->
     <p>
     <h1 class="shop">Shop by style</h1>
-    <ul class="list">
+    
+    <div class="colContainer colSize">
+    <ul>
 
       <li>
     <div class="container2">
-      <div class="product2">
+      <div class="product2 ">
               
    
        
-        <img src="img/jordanBrand.PNG" alt="" class="jordan_product">
+        <img src="img/jordanBrand.PNG" alt="" class="jordan_product ">
        
         
         </div>
@@ -94,7 +96,7 @@
       <li>
 
        <div class="container3">
-        <div class="product3">
+        <div class="product3 ">
           
      
           
@@ -102,7 +104,7 @@
             
      
          
-          <img src="img/adidasSuperFinal.jpg" class="adidas_product">
+          <img src="img/adidasSuperFinal.jpg" class="adidas_product colSize">
          
           
           </div>
@@ -114,14 +116,14 @@
          <li>
   
          <div class="container4">
-          <div class="product4">
+          <div class="product4 ">
             
        
             
              
        
         
-            <img src="http://www.keywebconcepts.com/wp-content/uploads/2014/03/nike.jpg" alt="" class="nike_product">
+            <img src="http://www.keywebconcepts.com/wp-content/uploads/2014/03/nike.jpg" alt="" class="nike_product colSize">
            
             
             </div>
@@ -132,27 +134,71 @@
            </div>
          </li>
     </ul>
-<!--Add collections basketball, track,summer clearance sale-->
+    </div>
+    <div class="rowContainer rowSize">
+
+    <div class="row align-items-center">
+      <div class="col">
+        <img src="img/jordanBrand.PNG" alt="" class="jordan_product">
+      </div>
+      <div class="col">
+        <img src="img/adidasSuperFinal.jpg" class="adidas_product">
+      </div>
+      <div class="col">
+        <img src="http://www.keywebconcepts.com/wp-content/uploads/2014/03/nike.jpg" alt="" class="nike_product">
+         
+      </div>
+    </div>
+  </div>
+<!--Add collections -->
 
 <h1 class="shop_collection">Shop by collection</h1>
 <div>
-    <img src="img/nike_fathers_daySmall.jpg" alt="" class="collection_image" >
+    <img src="img/nike_fathers_daySmall.jpg" alt="" class="collection_imageSmall fathersdaySize2" >
+    <img src="img/nike_fathers_day.jpg " class="collection_imageSmall fathersdaySize1">
+
     <h1 class="clearance_Title">Fathers Day Gifts.</h1>
     <p class="clearance_Words">Get the perfect kicks for that special father figure in your life.</p>
   <input type="button" value="Shop" class="shop_Button">
   </div>
-  <div>
-    <img src="https://images.pexels.com/photos/1102776/pexels-photo-1102776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="collection_image" >
+
+ 
+
+       
+    </div>
+  </div>
+  <div class="rowContainer2 collection_Large">
+
+    <div class="row align-items-center ">
+      <div class="col" >
+        <img src="img/clearance_collectionTest.jpg" class="collection_imageLarge1">
+        <h1>Clearance</h1>
+        <p>Checkout out some of our coolest styles! All on Sale!</p>
+      </div>
+  
+        <div class="col">
+          <img src="img/jordan_adSmall.jpg"class="collection_imageLarge2">
+          <h1>Couldn't make retail? Make the restock.</h1>
+          <p>We got every shoe released this calendar year so far... Do we have yours?</p>
+
+       
+        </div>
+    </div>
+  </div>
+  <div class="collection_Small">
+    <img src="https://images.pexels.com/photos/1102776/pexels-photo-1102776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="collection_imageSmall" >
     <h1 class="clearance_Title">Summer Clearance.</h1>
     <p class="clearance_Words">Checkout out some of our coolest styles! All on Sale!</p>
   <input type="button" value="Shop" class="shop_Button">
-  </div>
-  <div>
-    <img src="img/jordan_adSmall.jpg" alt="" class="collection_image"> 
+ 
+  
+    <img src="img/jordan_adSmall.jpg" alt="" class="collection_imageSmall"> 
     <h1 class="clearance_Title">Couldn't make retail? Make the restock.</h1>
     <p class="clearance_Words">We got every shoe released this calendar year so far... Do we have yours?</p>
   <input type="button" value="Shop" class="shop_Button">
   </div>
+
+
 
   
 
@@ -214,9 +260,71 @@
     
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <footer>
     
-    </footer>
+    <div class="footer">
+      <div class="contain">
+      <div class="col">
+        <h1>Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Mission</li>
+          <li>Services</li>
+          <li>Social</li>
+          <li>Get in touch</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1>Products</h1>
+        <ul>
+          <li>About</li>
+          <li>Mission</li>
+          <li>Services</li>
+          <li>Social</li>
+          <li>Get in touch</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1>Accounts</h1>
+        <ul>
+          <li>About</li>
+          <li>Mission</li>
+          <li>Services</li>
+          <li>Social</li>
+          <li>Get in touch</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1>Resources</h1>
+        <ul>
+          <li>Webmail</li>
+          <li>Redeem code</li>
+          <li>WHOIS lookup</li>
+          <li>Site map</li>
+          <li>Web templates</li>
+          <li>Email templates</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1>Support</h1>
+        <ul>
+          <li>Contact us</li>
+          <li>Web chat</li>
+          <li>Open ticket</li>
+        </ul>
+      </div>
+      <div class="col social">
+        <h1>Social</h1>
+        <ul>
+          <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+          <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+          <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+        </ul>
+      </div>
+    <div class="clearfix"></div>
+    </div>
+    </div>
+
+
  </body>
 
  </html>
