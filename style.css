@@ -56,8 +56,12 @@ margin-left: 20%;
   margin-left: 30%;
 }
 
+.summer_sale_design{
+  background-color:  	#e0ffff;
+  margin-top: 10%;
+}
 .summer_sale_title{
-  margin-top:10%;
+  margin-top:5%;
   padding:10%;
   text-align:center;
   margin-left: 4%;
@@ -69,6 +73,9 @@ margin-left: 20%;
  text-align:center;
  margin-left: 20%;
 font-size: 30px;
+overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+
 }
 
 .shop{
@@ -76,6 +83,8 @@ font-size: 30px;
 
   text-align: center;
   font-size: 35px;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .rowContainer{
   width:80%;
@@ -93,9 +102,24 @@ font-size: 30px;
   
   padding:5%
 }
+.rowContainer3{
+  width:100%;
+  border-color: red;
+  padding:5%
+}
 
+.rowContainer4{
+  width:100%;
+  border-color: red;
+  padding:5%
+}
+.rowContainer5{
+  width: 100%;
+  border-color: red;
+  padding:5%
+}
 .container2{
-  width:80%;
+  width:100%;
   
   margin-left:10%;
   margin-top:15%;
@@ -151,8 +175,6 @@ font-size: 30px;
   width:90%;
   margin-left:5%;
   margin-top:10%;
-
-
 }
 
 .shop_collection{
@@ -166,12 +188,18 @@ font-size: 30px;
 .clearance_Title{
   margin-left: 5%;
   margin-top: 5%;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .clearance_Words{
   font-size:25px ;
   margin-left: 5%;
   margin-top: 5%;
   width: 80%;
+}
+.scroll{
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .shop_Button{
   margin-left: 5%;
@@ -189,25 +217,25 @@ font-size: 30px;
   cursor: pointer;
 }
 .coming_soon{
-  font-size:300%;
-  margin-left:20%;
+  font-size:150px;
   margin-top:10%;
- 
-  margin:30%;
   text-align: center;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .rip{
-  font-size:200%;
+  font-size:50px;
   margin-left:5%;
-  margin-top:10%;
+  margin-top:20%;
   padding:5%;
   
   text-align: center;
 }
 
 .abloh_drawing{
-  padding: 10px ;
+  padding: 10%;
+  
 }
 
 .videoWrapper {
@@ -215,18 +243,33 @@ margin-top:10% ;
 margin-left:10%;
   
 }
+.videoWrapper2 {
+  margin-top:5% ;
+  margin-left:10%;
+    
+  }
 
+  .abloh_containerSmall{
+    display: none;
+  }
+  .customGif{
+    display: none;
+  }
+  .model_Gif{
+    display: none;
+  }
 .gifs{
   width:95%;
   height:auto;
 }
 
 .gif_words{
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   margin-left: 10%;
   width:85%;
-  font-size:25px ;
+  font-size:30px;
+  margin-top: 2%;
 }
 
 
@@ -316,6 +359,41 @@ margin-left:10%;
   .social h1 {
     margin: 0px;
   }
+
+  .abloh_drawing{
+    padding: 10px ;
+  }
+  
+  .videoWrapper {
+  margin-top:10% ;
+  margin-left:10%;
+    
+  }
+  
+  .gifs{
+    width:95%;
+    height:auto;
+  }
+  
+  .gif_words{
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    width:85%;
+    font-size:25px ;
+  }
+  
+  
+  .gif_words_models{
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    width:85%;
+    font-size:25px ;
+  }
+  
+  
+  
 }
 @media only screen and (max-width: 950px) {
   .footer .col {
@@ -389,6 +467,31 @@ margin-left:10%;
   }
   .collection_Large{
     display:none;
+  }
+
+  .jordan_product{
+    width:80%;
+    border-radius: 10%;
+    
+  }
+
+  .abloh_containerSmall{
+    display: block;
+  }
+  .rowContainer3{
+    display: none;
+  }
+  .customGif{
+    display: block;
+  }
+  .rowContainer4{
+    display: none;
+  }
+  .model_Gif{
+    display: block;
+  }
+  .rowContainer5{
+    display: none;
   }
 }
 @media only screen and (min-width: 1179px) {
