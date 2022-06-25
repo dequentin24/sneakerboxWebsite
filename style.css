@@ -11,7 +11,8 @@ overflow-x:hidden;
 }
 
 .navMiddle{
-margin-left: 41%;
+margin-left: 10%;
+
 }
 
 .vapormax{
@@ -21,12 +22,15 @@ margin-left: 41%;
   font-family: 'Passion One', cursive;
   margin-left: 10%;
   text-align: center;
-
+  cursor: pointer;
 
   font-size: 200px;
   color:white ;
 }
-
+.imageSize2{
+  
+  cursor: pointer;
+}
 .product_image{
   width:70%;
   margin-left: 15%;
@@ -35,21 +39,47 @@ margin-left: 41%;
 .adidas_product{
   width:100%;
   border-radius: 10%;
-  
+  cursor: pointer;
+}
+
+.sneakerbox_logo{
+  width:50%;
+  padding:20px;
+  margin-left: 30%;
+}
+
+.sneakerbox_words{
+  width:80%;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.sneakerbox_words2{
+  width:60%;
+  margin-left: 25%;
+  text-align: center;
+  margin-bottom:20% ;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.sneakerbox_missionSmall{
+  display:none;
 }
 .jordan_product{
   width:100%;
   border-radius: 10%;
-  
+  cursor: pointer;
 }
 .nike_product{
   width:100%;
   border-radius: 10%;
+  cursor: pointer;
 }
 
 .product_title{
  font-size:200%;
  margin-left:12%;
+ cursor: pointer;
 }
 .price{
   font-size: 200%;
@@ -92,7 +122,7 @@ margin-left: 20%;
 
 .shop{
   margin-top:10%;
-
+  font-family: 'Passion One', cursive;
   text-align: center;
   font-size: 35px;
   overflow-y: hidden; /* Hide vertical scrollbar */
@@ -141,10 +171,12 @@ margin-left: 20%;
 }
 
 .collection_imageLarge1{
-  width: 98%;
+  width: 102%;
+  cursor: pointer;
 }
 .collection_imageLarge2{
   width: 110%;
+  cursor: pointer;
 }
 
 .title1{
@@ -191,7 +223,7 @@ margin-left: 20%;
 
 .shop_collection{
   margin-top:10%;
- 
+  font-family: 'Passion One', cursive;
   text-align: center;
   font-size: 35px;
   
@@ -202,6 +234,7 @@ margin-left: 20%;
   margin-top: 5%;
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  font-family: 'Passion One', cursive;
 }
 .clearance_Words{
   font-size:25px ;
@@ -234,9 +267,11 @@ margin-left: 20%;
   text-align: center;
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  font-family: 'Passion One', cursive;
 }
 
 .rip{
+  font-family: 'Passion One', cursive;
   font-size:50px;
   margin-left:5%;
   margin-top:20%;
@@ -282,9 +317,28 @@ margin-left:10%;
   width:85%;
   font-size:30px;
   margin-top: 2%;
+  
+}
+.gif_words2{
+  padding: 10px;
+  text-align: center;
+  margin-left: 10%;
+  width:85%;
+  font-size:30px;
+  margin-top: 2%;
+  font-family: 'Passion One', cursive;
+}
+.gif_words3{
+ 
+  font-family: 'Passion One', cursive;
 }
 
-
+.words{
+font-size: 30px;
+}
+.nav_words{
+  font-size: 30px;
+}
 .gif_words_models{
   padding: 20px;
   text-align: center;
@@ -438,6 +492,7 @@ margin-left:10%;
 /*responsive stuff-page */
 .imageSize1{
   display:none;
+  cursor: pointer;
 }
 
 .colSize{
@@ -445,10 +500,12 @@ margin-left:10%;
 }
 .fathersdaySize2{
   display:none;
+
 }
 
 .collection_Small{
   display:none;
+  
 }
 
 
@@ -469,9 +526,11 @@ margin-left:10%;
   
   .fathersdaySize2{
     display:block;
+    cursor: pointer;
   }
   .fathersdaySize1{
     display:none;
+    cursor: pointer;
   }
 
   .collection_Small{
@@ -504,6 +563,14 @@ margin-left:10%;
   }
   .rowContainer5{
     display: none;
+  }
+
+  .sneakerbox_missionSmall{
+    display:block;
+  }
+
+  .sneakerbox_missionLarge{
+    display:none;
   }
 }
 @media only screen and (min-width: 1179px) {
